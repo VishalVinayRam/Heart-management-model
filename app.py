@@ -26,4 +26,4 @@ def predict():
     # Return the prediction as JSON
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
